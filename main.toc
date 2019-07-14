@@ -1,0 +1,57 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}contents page}{1}{section.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}Introduction}{2}{section.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}Disclaimer}{3}{section.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}being free without going off the grid}{5}{section.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}online presence and other technological considerations}{6}{section.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}housing}{7}{section.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}land}{8}{section.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}farming}{9}{section.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}water}{10}{section.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}electrcity}{11}{section.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}energy}{12}{section.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}modern luxries}{13}{section.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}the weather}{14}{section.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}transportation}{15}{section.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}traveling}{16}{section.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}building a lab and fixing things your self}{17}{section.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}currencies}{18}{section.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}work}{19}{section.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}schooling}{20}{section.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}removing the system more so}{21}{section.20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}staring a family}{22}{section.21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}taxation}{23}{section.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}enterainment}{24}{section.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}visiting/vistors}{25}{section.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}living money free}{26}{section.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}remaining off the grid as best as you can}{27}{section.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}Glossary}{28}{section.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {}Bibliography}{29}{section.28}% 

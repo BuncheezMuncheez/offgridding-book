@@ -1,6 +1,10 @@
 \documentclass[a4paper,12pt,titlepage]{article}
 \usepackage{graphicx,float,tabularx,hyperref,subfiles}
 \graphicspath{{./}{images/}}
+\usepackage[style=listgroup,toc]{glossaries}
+\usepackage[dvipsnames]{xcolor}
+
+
 \usepackage[sorting=nyt,style=authoryear-ibid,backend=biber]{biblatex}
 \hypersetup{
 colorlinks=true,
@@ -10,6 +14,7 @@ linkcolor=black
 \let\cite\textcite 
 \addbibresource{./bibliography.bib}
 \renewcommand\thesection{}
+\renewcommand\thesubsection{}
 \author{% add name in below list by adding your name then a \\
 baby-princess \\
 % <!!> \\
@@ -33,24 +38,155 @@ Going off the grid can be a daunting, process that seems nearly impossible, well
 
 
 So join us in exploring the possible ways of going more off the grid, even if not full, but more indepent of the system.
+
+Please note that some topics covered in this book, may not be legal in your area, if you wish to proceed, you are on your own in case of legal trouble, however, most things should be fine, more so illegal, but you will never be picked up for it, kind of like the jwalking law.
 \newpage
 
 % add pages here like so
-% \subfile{./tex-files/file.tex}
-\subfile{tex-files/test.tex}
+% \subfile{tex-files/file.tex}
 
+\begin{centering}
+	\section{Disclaimer}
+\end{centering}
+% disclaimer about freedom
+%\subfile{tex-files/test.tex}
+\subfile{tex-files/discliamer.tex}
 
+\newpage
+\begin{centering}
+	\section{being free without going off the grid}
+\end{centering}
+
+\newpage
+\begin{centering}
+	\section{online presence and other technological considerations}
+\end{centering}
+% about self hosting your online presence, and cleaning it up.
+\newpage
+
+\newpage
+\begin{centering}
+	\section{housing}
+\end{centering}
+.
+
+\newpage
+\begin{centering}
+	\section{land}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{farming}
+\end{centering}
+.
+
+\newpage
+\begin{centering}
+	\section{water}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{electrcity}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{energy}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{modern luxries}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{the weather}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{transportation}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{traveling}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{building a lab and fixing things your self}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{currencies}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{work}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{schooling}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{removing the system more so}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{staring a family}
+\end{centering}
+.
+\newpage
+\begin{centering}
+	\section{taxation}
+\end{centering}
+.
+\newpage
+
+\begin{centering}
+	\section{enterainment}
+\end{centering}
+.
+
+\newpage
+\begin{centering}
+	\section{visiting/vistors}
+\end{centering}
+.
+\newpage
+
+\begin{centering}
+	\section{living money free}
+\end{centering}
+.
+\newpage
+
+\begin{centering}
+	\section{remaining off the grid as best as you can}
+\end{centering}
+.
+
+\newpage
+\begin{centering}
+	\section{Glossary}
+\end{centering}
+\printglossaries
 \newpage
 \begin{centering}
 \section{Bibliography}
 \end{centering}
 \begin{refsection}
-% add citations here if you use a website like so
-% \nocte{<!!>}
-
-
-% be sure to also add the entery in the bibligrahpy.bib file so that latex detects it :)
-
+\nocite{*}
 \printbibliography
 \end{refsection}
 \end{document}
