@@ -83,7 +83,8 @@ aligned text & to the & width of the text \\
 ```
 
 ## sections and subsections:
-These can be added like so for sections `\section{section name}` and `\subsection{subsection name` for subsections.
+These can be added like so for sections `\section{section name}` and `\subsection{subsection name}` for subsections, please use subsections in text.
+
 
 ## refrences:
 To add a refrence is a little more work then the above listed items, but still fairly easy to do. To start with open up the `bibliography.bib` file in a text editor, and add the following to the bottom of the file
@@ -93,7 +94,21 @@ To add a refrence is a little more work then the above listed items, but still f
 		howpublished = {\url{website_url_here}}
 		}
 ```
-then in the `main.tex` file towards the bottom, add the following line `\nocite{somename}` where somename is the name you gave the citeation in the bibligorapy file.
+Where somename, is a uniqe name, and title is the website title, and howpublished is the url to the website.
+
+### glossary entery's:
+To add a glossery item add the following into `main.tex` 
+```
+\newglossaryentry{some name}
+{
+	name=a_name,
+	description={some description for the glossery item}
+}
+```
+where `some name` is a uniqe name, `name` is the name displayed, and the `description` is the description of the item.
+
+Then wherever you feel to link to the glossery in the text add the following `\Gls{some_name}` or if it is an abvation or shortened version `gls{some_name}`.
+
 
 ### becoming a author:
 there is no registration, as this is a community project, just simply, go to the author section in `main.tex` and add you're name, and any contact information you want to be public, followed by a \\ for example `baby-princess \\` then just start working on whatever topic you see fit, then simply include it as mentioned above, and look at the author documentation above for some pointers.

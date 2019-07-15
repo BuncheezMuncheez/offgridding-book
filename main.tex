@@ -1,5 +1,5 @@
 \documentclass[a4paper,12pt,titlepage]{article}
-\usepackage{graphicx,float,tabularx,hyperref,subfiles}
+\usepackage{graphicx,float,tabularx,hyperref,subfiles,datetime}
 \graphicspath{{./}{images/}}
 \usepackage[style=listgroup,toc]{glossaries}
 \usepackage[dvipsnames]{xcolor}
@@ -15,17 +15,22 @@ linkcolor=black
 \addbibresource{./bibliography.bib}
 \renewcommand\thesection{}
 \renewcommand\thesubsection{}
-\author{% add name in below list by adding your name then a \\
-baby-princess \\
-% <!!> \\
-The LaTeX source used can be found here: \\
-\url{https://github.com/baby-princess/offgrid-book.git}}
-\title{
-\titlehead{\centering\includegraphics[width=6cm]{CC-SA.png}}\\
-Offgridding book
-}
 \begin{document}
-\maketitle
+\begin{titlepage}
+\centering\includegraphics[width=6cm]{CC-SA.png}\\
+	\vspace{1.5cm}
+	{\huge	Offgridding book\par}
+	
+	{\large last compiled: \currenttime	-	\today\par}
+	\vspace{1cm}
+	{\large The \LaTeX source can be found here:\\	
+	\url{https://github.com/baby-princess/offgrid-book.git}\par}
+	\vspace{3cm}
+	{\large Authors:\par}
+	{\Large baby princess\\
+	\par}
+\end{titlepage}
+	\newpage
 \begin{centering}
 \section{contents page}
 \end{centering}
@@ -51,7 +56,8 @@ Please note that some topics covered in this book, may not be legal in your area
 % disclaimer about freedom
 %\subfile{tex-files/test.tex}
 \subfile{tex-files/discliamer.tex}
-
+\subsection{test}
+test
 \newpage
 \begin{centering}
 	\section{being free without going off the grid}
