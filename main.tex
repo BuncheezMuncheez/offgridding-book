@@ -2,6 +2,8 @@
 \usepackage{graphicx,float,tabularx,hyperref,subfiles,datetime}
 \graphicspath{{./}{images/}}
 \usepackage[style=listgroup,toc]{glossaries}
+\usepackage[utf8]{inputenc}
+\usepackage[hebrew,swedish,german,russian,czech,finnish,french,magyar,italian,norsk,polish,portuguese,slovak,spanish,USenglish,UKenglish]{babel}
 \usepackage[dvipsnames]{xcolor}
 
 
@@ -15,6 +17,10 @@ linkcolor=black
 \addbibresource{./bibliography.bib}
 \renewcommand\thesection{}
 \renewcommand\thesubsection{}
+
+% language selection
+\selectlanguage{UKenglish}
+
 \begin{document}
 \begin{titlepage}
 \centering\includegraphics[width=6cm]{CC-SA.png}\\
